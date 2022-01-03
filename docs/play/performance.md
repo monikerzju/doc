@@ -409,11 +409,4 @@
     
     ```
 
-    
-
-- **How to run native debugger and tracer?**
-
-- **Which part of Fuchsia consumes time?**
-
-- **How does the kernel support the component manager?**
 
