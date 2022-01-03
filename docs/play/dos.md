@@ -1,7 +1,5 @@
 # Dos on Fuchsia
 
-Reproducing may take you only 1 min.
-
 ## Set-up
 
 
