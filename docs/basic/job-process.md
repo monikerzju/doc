@@ -81,17 +81,4 @@ All the above elements are highlight among the following code block:
 
 ## 为什么需要 Job
 
-答：是为了支持 Fuchsia 中的 [Sandboxing](https://fuchsia.dev/fuchsia-src/concepts/process/sandboxing)
-
-## Where to Track Previledges to Perform Syscalls
-
-TODO
-
-## Where to Limit Memory & CPU
-
-TODO
-
-## Security Concerns
-
-- [OOM kill system is **incomplete**](https://cs.opensource.google/fuchsia/fuchsia/+/main:zircon/kernel/object/include/object/job_dispatcher.h;l=226)
-    - 但是还没搞清楚到底 incomplete 在哪里
+答：是为了支持 Fuchsia 中的 [Sandboxing](https://fuchsia.dev/fuchsia-src/concepts/process/sandboxing)，Job在用户态与Component一一对应。
